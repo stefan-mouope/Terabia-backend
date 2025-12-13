@@ -46,10 +46,15 @@ const seedApi = async () => {
 
     // --------------------- CATEGORIES ---------------------
     const categories = [
-      { name: "Vegetables", slug: "vegetables", icon: "🥬", description: "Fresh vegetables and greens" },
-      { name: "Fruits", slug: "fruits", icon: "🍎", description: "Seasonal fruits" },
-      { name: "Grains & Cereals", slug: "grains-cereals", icon: "🌾", description: "Rice, corn, wheat, and more" },
-    ];
+  { name: 'Vegetables', slug: 'vegetables', icon: 'Leafy Green', description: 'Légumes frais' },
+  { name: 'Fruits', slug: 'fruits', icon: 'Red Apple', description: 'Fruits de saison' },
+  { name: 'Grains & Cereals', slug: 'grains-cereals', icon: 'Sheaf of Rice', description: 'Riz, maïs, mil...' },
+  { name: 'Livestock', slug: 'livestock', icon: 'Cow', description: 'Bétail' },
+  { name: 'Poultry', slug: 'poultry', icon: 'Chicken', description: 'Volailles & œufs' },
+  { name: 'Dairy', slug: 'dairy', icon: 'Milk', description: 'Lait, fromage...' },
+  { name: 'Roots & Tubers', slug: 'roots-tubers', icon: 'Potato', description: 'Manio, igname...' },
+  { name: 'Spices & Herbs', slug: 'spices-herbs', icon: 'Herb', description: 'Épices' },
+  ];
 
     for (const c of categories) {
       try {
